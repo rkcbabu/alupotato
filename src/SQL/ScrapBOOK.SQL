@@ -1,1 +1,1 @@
-select * from setting;
+select * from test.setting;

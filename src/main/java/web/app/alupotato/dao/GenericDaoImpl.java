@@ -1,4 +1,4 @@
-package web.app.crudmagic.dao;
+package web.app.alupotato.dao;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;

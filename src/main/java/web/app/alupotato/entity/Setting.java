@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package web.app.crudmagic.entity;
+package web.app.alupotato.entity;
 
 import java.io.Serializable;
 import javax.persistence.Entity;
@@ -75,7 +75,7 @@ public class Setting implements Serializable {
 
     @Override
     public String toString() {
-        return "web.app.crudmagic.domain.Setting[ id=" + id + " ]";
+        return "web.app.alupotato.domain.Setting[ id=" + id + " ]";
     }
     
 }

@@ -1,11 +1,11 @@
-package web.app.crudmagic.service;
+package web.app.alupotato.service;
 
 import java.io.Serializable;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-import web.app.crudmagic.dao.GenericDAO;
+import web.app.alupotato.dao.GenericDAO;
 
 /**
  *

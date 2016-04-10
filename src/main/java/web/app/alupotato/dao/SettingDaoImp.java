@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package web.app.crudmagic.dao;
+package web.app.alupotato.dao;
 
 import org.springframework.stereotype.Repository;
-import web.app.crudmagic.entity.Setting;
+import web.app.alupotato.entity.Setting;
 
 /**
  *

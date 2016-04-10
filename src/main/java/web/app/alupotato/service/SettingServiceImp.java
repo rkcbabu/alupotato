@@ -1,8 +1,8 @@
-package web.app.crudmagic.service;
+package web.app.alupotato.service;
 
 import org.springframework.stereotype.Service;
-import web.app.crudmagic.dao.GenericDAO;
-import web.app.crudmagic.entity.Setting;
+import web.app.alupotato.dao.GenericDAO;
+import web.app.alupotato.entity.Setting;
 
 /**
  *

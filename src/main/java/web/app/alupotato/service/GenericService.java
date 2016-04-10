@@ -1,13 +1,19 @@
-package web.app.crudmagic.dao;
+package web.app.alupotato.service;
 
 import java.io.Serializable;
 import java.util.List;
 
-public interface GenericDAO<Entity, ID extends Serializable> {
-
-    public Entity get(ID id);
+/**
+ *
+ * @author Ram Chaulagai <ram.chaulagai.np@gmail.com>
+ * @param <Entity>
+ * @param <ID>
+ */
+public interface GenericService<Entity, ID extends Serializable> {
 
     public List<Entity> getAll();
+
+    public Entity get(ID id);
 
     public void create(Entity entity);
 
@@ -18,5 +24,4 @@ public interface GenericDAO<Entity, ID extends Serializable> {
     public void delete(Entity entity);
 
     void deleteById(final ID entityId);
-
 }
